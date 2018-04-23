@@ -1,0 +1,22 @@
+{
+  "name": "voor-de-wind",
+  "displayName": "Voor de Wind",
+  "description": "",
+  "version": "0.0.0",
+  "publisher": "kinday",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Voor de Wind",
+        "uiTheme": "vs-dark",
+        "path": "./themes/voor-de-wind-dark.json"
+      }
+    ]
+  }
+}
