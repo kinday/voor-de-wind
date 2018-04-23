@@ -1,0 +1,93 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Voor de Wind",
+  "colors": {
+    "titleBar.activeBackground": "#232323FF",
+    "editorWhitespace.foreground": "#FFFFFF20",
+    "statusBar.foreground": "#FFFFFF40",
+    "activityBar.foreground": "#FFFFFF40",
+    "editorRuler.foreground": "#FFFFFF10",
+    "editorIndentGuide.background": "#FFFFFF10",
+    "activityBar.background": "#232323FF",
+    "statusBar.background": "#232323FF",
+    "sideBar.background": "#232323FF",
+    "sideBar.foreground": "#FFFFFF50",
+    "tab.activeBackground": "#232323FF",
+    "editorGroupHeader.noTabsBackground": "#232323FF",
+    "tab.inactiveBackground": "#232323FF",
+    "sideBarSectionHeader.background": "#232323FF",
+    "list.activeSelectionBackground": "#232323FF",
+    "list.inactiveSelectionBackground": "#232323FF",
+    "list.focusBackground": "#FFFFFF40",
+    "list.hoverBackground": "#FFFFFF40",
+    "editor.background": "#232323FF",
+    "editor.foreground": "#D0D0D0FF"
+  },
+  "tokenColors": [
+    {
+      "scope": "source.js",
+      "settings": {
+        "foreground": "#D0D0D0FF"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "meta.brace",
+        "meta.delimiter",
+        "keyword.operator",
+        "variable.other.constant.object.js",
+        "variable.other.object.js",
+        "variable.language.this.js"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF36"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "constant",
+        "string",
+        "string punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#B0DB8AFF"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF40"
+      }
+    },
+    {
+      "name": "Reset",
+      "scope": [
+        "support.constant.dom",
+        "variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#FFFFFFFF"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#C94235FF"
+      }
+    }
+  ],
+  "uuid": "4964F69D-59F0-45A1-9B55-7A0F37A19AB3",
+  "colorSpaceName": "sRGB",
+  "semanticClass": "theme.dark.voor_de_wind"
+}
