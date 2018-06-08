@@ -1,0 +1,18 @@
+cache:
+  directories:
+    - ~/.npm
+
+script:
+  - npm test
+
+stages:
+  - test
+  - name: release
+    if: branch = master AND type = push AND fork = false
+
+jobs:
+  include:
+    - stage: release
+      language: node_js
+      node_js: '8'
+      script: npm run semantic-release
