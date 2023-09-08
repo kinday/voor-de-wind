@@ -14,7 +14,7 @@ function toColor(rgb, a) {
 
 const DARK = {
   accent: [176, 219, 138],
-  background: [35, 35, 35],
+  background: [0, 0, 0],
   comment: [201, 66, 53],
   foreground: [208, 208, 208],
   highlight: [255, 255, 255]

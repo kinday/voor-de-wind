@@ -2,25 +2,25 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Voor de Wind",
   "colors": {
-    "titleBar.activeBackground": "#232323FF",
+    "titleBar.activeBackground": "#000000FF",
     "editorWhitespace.foreground": "#FFFFFF20",
     "statusBar.foreground": "#FFFFFF40",
     "activityBar.foreground": "#FFFFFF40",
     "editorRuler.foreground": "#FFFFFF10",
     "editorIndentGuide.background": "#FFFFFF10",
-    "activityBar.background": "#232323FF",
-    "statusBar.background": "#232323FF",
-    "sideBar.background": "#232323FF",
+    "activityBar.background": "#000000FF",
+    "statusBar.background": "#000000FF",
+    "sideBar.background": "#000000FF",
     "sideBar.foreground": "#FFFFFF50",
-    "tab.activeBackground": "#232323FF",
-    "editorGroupHeader.noTabsBackground": "#232323FF",
-    "tab.inactiveBackground": "#232323FF",
-    "sideBarSectionHeader.background": "#232323FF",
-    "list.activeSelectionBackground": "#232323FF",
-    "list.inactiveSelectionBackground": "#232323FF",
+    "tab.activeBackground": "#000000FF",
+    "editorGroupHeader.noTabsBackground": "#000000FF",
+    "tab.inactiveBackground": "#000000FF",
+    "sideBarSectionHeader.background": "#000000FF",
+    "list.activeSelectionBackground": "#000000FF",
+    "list.inactiveSelectionBackground": "#000000FF",
     "list.focusBackground": "#FFFFFF40",
     "list.hoverBackground": "#FFFFFF40",
-    "editor.background": "#232323FF",
+    "editor.background": "#000000FF",
     "editor.foreground": "#D0D0D0FF"
   },
   "tokenColors": [
@@ -47,41 +47,28 @@
     },
     {
       "name": "String",
-      "scope": [
-        "constant",
-        "string",
-        "string punctuation.definition.string"
-      ],
+      "scope": ["constant", "string", "string punctuation.definition.string"],
       "settings": {
         "foreground": "#B0DB8AFF"
       }
     },
     {
       "name": "Keywords",
-      "scope": [
-        "keyword",
-        "storage"
-      ],
+      "scope": ["keyword", "storage"],
       "settings": {
         "foreground": "#FFFFFF40"
       }
     },
     {
       "name": "Reset",
-      "scope": [
-        "support.constant.dom",
-        "variable.other.readwrite.js"
-      ],
+      "scope": ["support.constant.dom", "variable.other.readwrite.js"],
       "settings": {
         "foreground": "#FFFFFFFF"
       }
     },
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#C94235FF"
       }
